@@ -20,7 +20,7 @@ public class Main {
         String reversed = ""; // 1 => 12 => 121
         for (int i = digits.length - 1; i >= 0; i--) {
             reversed += digits[i];
-        }
+        } //HHH
         return reversed.equalsIgnoreCase(String.valueOf(number));
 
     }
