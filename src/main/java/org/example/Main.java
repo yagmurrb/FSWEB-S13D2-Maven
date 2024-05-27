@@ -4,18 +4,18 @@ public class Main {
 
 
     public static void main(String[] args) {
-        //System.out.println(isPalindrome(-21));
-        // System.out.println(isPerfectNumber(28));
+        //System.out.println(isPalindrome(-21));//
+        // System.out.println(isPerfectNumber(28));//
         System.out.println(numberToWords(123));
 
 
- //ghththhx
+        //ghththhx//
     }
 
     public static boolean isPalindrome(int number) {
 
         number = Math.abs(number);
-        String.valueOf(number);
+
         char[] digits = String.valueOf(number).toCharArray(); //121 ["1","2","1"]
         String reversed = ""; // 1 => 12 => 121
         for (int i = digits.length - 1; i >= 0; i--) {
